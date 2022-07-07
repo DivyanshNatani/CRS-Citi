@@ -20,7 +20,7 @@ fileChangedHandler = async event => {
   this.setState({ selectedFile: event.target.files[0] });
   
   setTimeout(() => {
-      console.log("I am in set timr out");
+      console.log("I am in set time out");
       this.setState({isFileUploaded: true});
      
   }, 1000);
